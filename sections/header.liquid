@@ -134,7 +134,7 @@
         </div>
     </div>
 
-    <div x-show="searchBarOpen" class="w-full absolute top-0 bg-white border">
+    {% comment %} <div x-show="searchBarOpen" class="w-full absolute top-0 bg-white border">
         <button type="button" x-on:click="searchBarOpen = false" class="absolute top-0 right-0 mr-5 mt-5 text-gray-500">
             {% render 'icon-close' %}
         </button>
@@ -148,7 +148,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    </div> {% endcomment %}
 </div>
 
 {% schema %}
